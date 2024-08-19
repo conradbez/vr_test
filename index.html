@@ -15,6 +15,7 @@
         await modelApi.dispatchEvent("api_line_1", `${await getData('api_line_1')}`);
         await modelApi.dispatchEvent("api_line_2", `${await getData('api_line_2')}`);
         await modelApi.dispatchEvent("api_line_3", `${await getData('api_line_3')}`);
+        await modelApi.dispatchEvent("truck", `${await getData('truck')}`);
     }, 1000); 
   
     console.log(modelApi)
